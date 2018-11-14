@@ -1,0 +1,15 @@
+{
+  "name": "trix-now",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lz-string": "^1.4.4",
+    "parcel-bundler": "^1.10.3",
+    "trix": "^1.0.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "now-build": "parcel build index.html"
+  }
+}
