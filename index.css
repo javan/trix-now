@@ -11,13 +11,23 @@ body {
   background-color: white;
 }
 
+a {
+  color: inherit;
+}
+
+a:active,
+a:hover {
+  color: inherit;
+  outline: 0;
+}
+
 main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   max-width: 700px;
   margin: 0 auto;
-  padding: 1em 0.5em;
+  padding: 1em 0.5em 0.75em 1em;
 }
 
 trix-toolbar {
@@ -26,4 +36,12 @@ trix-toolbar {
 
 trix-editor {
   flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0.75rem;
+  color: #8c8c8c;
 }
