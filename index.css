@@ -34,6 +34,10 @@ trix-toolbar {
   flex-shrink: 0;
 }
 
+trix-toolbar [data-trix-button-group=file-tools] {
+  display: none;
+}
+
 trix-editor {
   flex: 1 0 auto;
 }
