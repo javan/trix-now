@@ -5,8 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "lz-string": "^1.4.4",
-    "parcel-bundler": "^1.12.3",
-    "trix": "^1.2.0"
+    "parcel-bundler": "^1.12.4",
+    "trix": "^1.2.2"
   },
   "scripts": {
     "start": "parcel index.html",
