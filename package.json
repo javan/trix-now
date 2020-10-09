@@ -1,15 +1,26 @@
 {
   "name": "trix-now",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "lz-string": "^1.4.4",
-    "parcel-bundler": "^1.12.4",
+    "snowpack": "^2.13.3",
     "trix": "^1.3.0"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "now-build": "parcel build index.html"
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "snowpack": {
+    "mount": {
+      "src": "/"
+    },
+    "devOptions": {
+      "out": "public"
+    },
+    "buildOptions": {
+      "clean": true
+    }
   }
 }
