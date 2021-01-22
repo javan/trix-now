@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "lz-string": "^1.4.4",
-    "snowpack": "^2.13.3",
-    "trix": "^1.3.0"
+    "lz-string": "1.4.4",
+    "snowpack": "3.0.11",
+    "trix": "1.3.1"
   },
   "scripts": {
     "start": "snowpack dev",
@@ -16,10 +16,8 @@
     "mount": {
       "src": "/"
     },
-    "devOptions": {
-      "out": "public"
-    },
     "buildOptions": {
+      "out": "public",
       "clean": true
     }
   }
