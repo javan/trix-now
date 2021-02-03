@@ -1,10 +1,12 @@
 {
   "scripts": {
-    "start": "npx snowpack@$npm_package_snowpack_version dev",
-    "build": "npx snowpack@$npm_package_snowpack_version build"
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "snowpack": "3.0.11"
   },
   "snowpack": {
-    "version": "3.0.11",
     "mount": {
       "src": "/"
     },
