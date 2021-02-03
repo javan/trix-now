@@ -1,24 +1,23 @@
 {
-  "name": "trix-now",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "lz-string": "1.4.4",
-    "snowpack": "3.0.11",
-    "trix": "1.3.1"
-  },
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build"
+    "start": "npx snowpack@$npm_package_snowpack_version dev",
+    "build": "npx snowpack@$npm_package_snowpack_version build"
   },
   "snowpack": {
+    "version": "3.0.11",
     "mount": {
       "src": "/"
     },
     "buildOptions": {
       "out": "public",
       "clean": true
+    },
+    "devOptions": {
+      "open": "none",
+      "hmr": false
+    },
+    "packageOptions": {
+      "source": "remote"
     }
   }
 }
