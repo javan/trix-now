@@ -127,10 +127,10 @@ rollup@^2.34.0:
   optionalDependencies:
     fsevents "~2.1.2"
 
-snowpack@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-3.2.0.tgz#d443bb0271ffc92cf73b71188f467b33f298e03d"
-  integrity sha512-YXVIxV43vWtvBFVISZk7HRBpFNopM+NvgkJP8/zvYU+GRm2Me+ifKR2lfJmxkbHw6JLHHko/ijHa27ICDtWQ5g==
+snowpack@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-3.2.1.tgz#38c91cd48882b8a29991ec77b642ec536e371654"
+  integrity sha512-ZnSg5XF7rrub1asLpqpM1sVv1AFap069IqpOybUr3jVfzMy+rTlzVl4zeZjrw8cDemdIpoaHbXu0HRTnWRiDYA==
   dependencies:
     cli-spinners "^2.5.0"
     default-browser-id "^2.0.0"
