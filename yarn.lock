@@ -2554,10 +2554,10 @@ smart-buffer@^4.1.0:
   resolved "https://registry.yarnpkg.com/smart-buffer/-/smart-buffer-4.1.0.tgz#91605c25d91652f4661ea69ccf45f1b331ca21ba"
   integrity sha512-iVICrxOzCynf/SNaBQCw34eM9jROU/s5rzIhpOvzhzuYHfJR/DhZfDkXiZSgKXfgv26HT3Yni3AV/DGw0cGnnw==
 
-snowpack@3.8.6:
-  version "3.8.6"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-3.8.6.tgz#0bef5c071caef86a2f91aa5c3d5b70d0c2e2793c"
-  integrity sha512-EZ3Y7RtTiPvxnVFTKPfkvi2PKBrprXCvOHKWQQLBkHonf+xdtG51RiNjtrRLJeCjislAlD6OoeGHUxz76ToGHw==
+snowpack@3.8.7:
+  version "3.8.7"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-3.8.7.tgz#21a83d0b0442db2207d7797d5b224b45bd924845"
+  integrity sha512-lvz1jxAxi/uPU6aOW8LSLp1sJlSNnwOGDt5nkF4pLeECmxn9iymLLiyptXEJJrXhFf48D0RrCww57J5kwi4dwA==
   dependencies:
     "@npmcli/arborist" "^2.6.4"
     bufferutil "^4.0.2"
@@ -2586,6 +2586,7 @@ snowpack@3.8.6:
     isbinaryfile "^4.0.6"
     jsonschema "~1.2.5"
     kleur "^4.1.1"
+    magic-string "^0.25.7"
     meriyah "^3.1.6"
     mime-types "^2.1.26"
     mkdirp "^1.0.3"
