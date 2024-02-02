@@ -2790,10 +2790,10 @@ treeverse@^1.0.4:
   resolved "https://registry.yarnpkg.com/treeverse/-/treeverse-1.0.4.tgz#a6b0ebf98a1bca6846ddc7ecbc900df08cb9cd5f"
   integrity sha512-whw60l7r+8ZU8Tu/Uc2yxtc4ZTZbR/PF3u1IPNKGQ6p8EICLb3Z2lAgoqw9bqYd8IkgnsaOcLzYHFckjqNsf0g==
 
-trix@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/trix/-/trix-2.0.4.tgz#37ec8092e5d561462cee1d96cc402aa5c5f8c04e"
-  integrity sha512-WOMKqwCVti0i3RVaDrMnrEZWs6XMpFoCfUvFCZNd15KndAy6MsYQscizxEpFiCLUlo+rXMkueK0ldRDo5xpVJA==
+trix@2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/trix/-/trix-2.0.9.tgz#26fd49fe17a5556d8f2fea632d194e7ee8f943d3"
+  integrity sha512-ukYIuICcO1mxz0c1BNKauV5gSVpXwLgAXXM69OkIEWzb4NU6WdGGePQ5DoP/Z19yUN7I27i1EVl4Z94IAmQZZA==
 
 tslib@^2.2.0:
   version "2.3.0"
